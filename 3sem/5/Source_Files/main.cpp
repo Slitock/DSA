@@ -24,7 +24,7 @@ int getLastRecordKey(const char *filename) {
 }
 
 int main() {
-  const char *filename = "cities_100.bin";
+  const char *filename = "../bin/cities_100.bin";
   int n = 100;
 
   generateBinaryFile(filename, n);
